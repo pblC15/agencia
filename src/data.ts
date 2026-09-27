@@ -13,5 +13,5 @@ export const projects: Project[] = [
  
  {slug:'matheus-fernandes-advocacia',title:'Matheus Fernandes Advocacia',category:'Website institucional',image:matheusAdvocacia,description:'Site institucional para escritório de advocacia, com áreas de atuação, apresentação profissional e formulário de contato.',tags:['HTML','CSS','JavaScript','PHP'],demoUrl:'https://matheusadv.agenciagoolbe.site'},
  
- {slug:'rodrigo-leite',title:'Dr. Rodrigo Leite',category:'Nutrologia e Nefrologia',image:rodrigoNutrologo,description:'Website profissional para área da saúde, estruturado para apresentar especialidades, informações e facilitar o contato.',tags:['HTML','CSS','JavaScript'],demoUrl:'http://localhost:5177'}
+ {slug:'rodrigo-leite',title:'Dr. Rodrigo Leite',category:'Nutrologia e Nefrologia',image:rodrigoNutrologo,description:'Website profissional para área da saúde, estruturado para apresentar especialidades, informações e facilitar o contato.',tags:['HTML','CSS','JavaScript'],demoUrl:'rodrigonutrologo.agenciagoolbe.site'}
 ]
