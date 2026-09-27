@@ -8,7 +8,10 @@ export type Project = {
 }
 export const projects: Project[] = [
  {slug:'panela-cheia',title:'Panela Cheia',category:'Website para restaurante',image:panelaCheia,description:'Website institucional para restaurante, com apresentação da marca, cardápio, ambiente e canais de contato.',tags:['HTML','CSS','JavaScript','Bootstrap'],demoUrl:'http://localhost:5174'},
- {slug:'camila-nutri-esportiva',title:'Camila Fernandez',category:'Nutrição Esportiva',image:camilaNutri,description:'Landing page profissional para nutricionista esportiva, com apresentação de serviços e comunicação focada no atendimento.',tags:['HTML','CSS','JavaScript'],demoUrl:'http://localhost:5175'},
- {slug:'matheus-fernandes-advocacia',title:'Matheus Fernandes Advocacia',category:'Website institucional',image:matheusAdvocacia,description:'Site institucional para escritório de advocacia, com áreas de atuação, apresentação profissional e formulário de contato.',tags:['HTML','CSS','JavaScript','PHP'],demoUrl:'http://localhost:5176'},
+
+ {slug:'camila-nutri-esportiva',title:'Camila Fernandez',category:'Nutrição Esportiva',image:camilaNutri,description:'Landing page profissional para nutricionista esportiva, com apresentação de serviços e comunicação focada no atendimento.',tags:['HTML','CSS','JavaScript'],demoUrl:'https://nutricamila.agenciagoolbe.site'},
+ 
+ {slug:'matheus-fernandes-advocacia',title:'Matheus Fernandes Advocacia',category:'Website institucional',image:matheusAdvocacia,description:'Site institucional para escritório de advocacia, com áreas de atuação, apresentação profissional e formulário de contato.',tags:['HTML','CSS','JavaScript','PHP'],demoUrl:'https://matheusadv.agenciagoolbe.site'},
+ 
  {slug:'rodrigo-leite',title:'Dr. Rodrigo Leite',category:'Nutrologia e Nefrologia',image:rodrigoNutrologo,description:'Website profissional para área da saúde, estruturado para apresentar especialidades, informações e facilitar o contato.',tags:['HTML','CSS','JavaScript'],demoUrl:'http://localhost:5177'}
 ]
