@@ -7,7 +7,7 @@ export type Project = {
   slug:string; title:string; category:string; image:string; description:string; tags:string[]; demoUrl:string
 }
 export const projects: Project[] = [
- {slug:'panela-cheia',title:'Panela Cheia',category:'Website para restaurante',image:panelaCheia,description:'Website institucional para restaurante, com apresentação da marca, cardápio, ambiente e canais de contato.',tags:['HTML','CSS','JavaScript','Bootstrap'],demoUrl:'https://panelacheia.agenciagoolbe.site"'},
+ {slug:'panela-cheia',title:'Panela Cheia',category:'Website para restaurante',image:panelaCheia,description:'Website institucional para restaurante, com apresentação da marca, cardápio, ambiente e canais de contato.',tags:['HTML','CSS','JavaScript','Bootstrap'],demoUrl:'https://panelacheia.agenciagoolbe.site'},
 
  {slug:'camila-nutri-esportiva',title:'Camila Fernandez',category:'Nutrição Esportiva',image:camilaNutri,description:'Landing page profissional para nutricionista esportiva, com apresentação de serviços e comunicação focada no atendimento.',tags:['HTML','CSS','JavaScript'],demoUrl:'https://nutricamila.agenciagoolbe.site'},
  
