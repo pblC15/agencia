@@ -31,3 +31,38 @@
 .footer img{width:210px;height:78px;object-fit:contain;object-position:center;filter:none;background:#fff;border-radius:12px;padding:6px 10px;display:block}
 .projectCard{cursor:pointer}
 .projectLink{display:inline-flex;align-items:center;gap:6px}
+
+/* =========================================================
+   WhatsApp no contacto (todas as versões)
+========================================================= */
+.contactActions{display:flex;flex-direction:column;align-items:center;gap:12px;flex:none}
+.contactPhone{display:inline-flex;align-items:center;gap:7px;color:#fff;font-size:14px;font-weight:800;white-space:nowrap}
+.contactPhone:hover{text-decoration:underline}
+
+/* =========================================================
+   Ajustes da versão mobile
+========================================================= */
+@media(max-width:850px){
+  /* 1 - Rodapé: logo e menu centralizados */
+  .footer{justify-items:center;text-align:center}
+  .footer>div:first-child,.footerBrand{align-items:center}
+  .footer img{margin:0 auto}
+  .footerLinks{justify-content:center;flex-wrap:wrap;gap:12px 24px}
+  .footer small{width:100%;text-align:center}
+
+  /* 2 - Contacto */
+  .contactActions{align-items:flex-start}
+
+  /* 3 - Cards "Sites responsivos" e "Experiências modernas" abaixo da logo */
+  .heroVisual{flex-direction:column;gap:24px;min-height:0}
+  .heroBadges{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+  .heroBadges .floatCard{position:static;left:auto;right:auto;top:auto;bottom:auto}
+
+  /* 4 - Imagem do bloco "Sobre" com 100% de largura */
+  .aboutMark img{width:100%}
+}
+
+@media(max-width:560px){
+  .contactActions{width:100%;align-items:stretch}
+  .contactPhone{justify-content:center}
+}
